@@ -10,7 +10,7 @@ def fibonacci():
 
 
 # max fibo value
-MAX_VAL = 4000000
+MAX_VAL = 4_000_000
 
 fib = fibonacci()
 values = []
@@ -23,3 +23,4 @@ while True:
         values.append(x)
 
 print(sum(values), len(values), values[-5:])
+# Ans: 4613732 11 [10946, 46368, 196418, 832040, 3524578]
